@@ -81,7 +81,7 @@ class CLI {
             int exit_code = compileProcess.waitFor();
 
             if (exit_code == 0) {
-                System.out.println("“compiled successfully …");
+                System.out.println("“compiled successfully…");
             } else {
                 System.out.println("compile fail");
             }
